@@ -1,0 +1,5 @@
+FROM ubuntu:trusty
+LABEL maintainer="srin.reddy74@gmail.com"
+RUN apt-get update  
+ENV name mydcoker tech 
+ENTRYPOINT echo "welcome to $name"
